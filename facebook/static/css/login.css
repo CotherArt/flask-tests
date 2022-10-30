@@ -1,0 +1,81 @@
+body{
+    background-color: #f0f2f5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.container{
+
+    width: 100%;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    gap: 9px;
+}
+/*------------------------------------------ */
+.headline{
+    text-align: center;
+    width: 400px;
+    
+}
+.fb_logo{
+    height: 106px;
+    margin-bottom: -28px;
+}
+.tagline{
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+}
+/*------------------------------------------ */
+
+.form{
+    width: 396px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.tb{
+    font-family: inherit;
+    background: white;
+    border: 1px solid #dddfe2;
+    color: #8a8e94;
+
+    height: 22px;
+    line-height: 16px;
+
+    vertical-align: middle;
+
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+
+    width: 332px;
+    box-sizing: content-box;font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+.btnLogin{
+    background-color: #1877f2;
+    color: white;
+
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    box-sizing: content-box;
+}
+
+.btnLogin:hover{
+    background-color: #166fe5;
+}

